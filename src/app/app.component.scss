@@ -1,0 +1,60 @@
+.sidebar {
+    margin-right: 20px;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 260px;
+    background: #fff;
+    box-shadow: 0 16px 38px -12px rgba(0, 0, 0, .56), 0 4px 25px 0 rgba(0, 0, 0, .12), 0 8px 10px -5px rgba(0, 0, 0, .2);
+}
+
+.dashboard {
+    display: flex;
+}
+
+.logo {
+    text-align: center;
+    margin: 20px 0;
+}
+
+span {
+    font-size: 30px;
+}
+
+.router-component {
+    width: 100%;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, .87);
+    border-top: 1px solid rgba(44, 44, 44, 0.39);
+    border-bottom: 1px solid rgba(44, 44, 44, 0.39);
+
+    mat-icon {
+        margin-left: 10px;
+    }
+
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.active {
+    background-color: #00C58D;
+}
+
+.titulo {
+    margin-top: 10px;
+
+    h5 {
+        opacity: 40%;
+        margin-left: 5px;
+    }
+}

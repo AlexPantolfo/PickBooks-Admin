@@ -1,0 +1,26 @@
+<app-page-tittle (botaoEvent)=save() titulo="Cadastrar Livro" nomeBotao="Salvar"></app-page-tittle>
+<form [formGroup]="cadastroForm">
+    <mat-form-field>
+        <mat-label>Nome</mat-label>
+        <input matInput formControlName="nome">
+    </mat-form-field>
+
+    <mat-form-field appearance="fill">
+        <mat-label>Email</mat-label>
+        <input matInput formControlName="email">
+    </mat-form-field>
+</form>
+
+
+<mat-accordion>
+    <mat-expansion-panel>
+        <mat-expansion-panel-header>
+            <mat-panel-title>
+                Self aware panel
+            </mat-panel-title>
+        </mat-expansion-panel-header>
+
+        <p>I'm visible because I am open</p>
+
+    </mat-expansion-panel>
+</mat-accordion>
