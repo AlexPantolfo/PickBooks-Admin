@@ -1,0 +1,30 @@
+.card-body {
+    width: 330px;
+
+    img {
+        border-radius: .5rem;
+        max-width: 100%;
+        min-height: 490px;
+        height: auto;
+    }
+
+    h4 {
+        margin: 10px 0 0;
+        font-weight: 500;
+    }
+}
+
+.mudar-cor:hover {
+    color: orange;
+}
+
+.author {
+    margin: 8px 0 0;
+}
+
+.preco {
+    color: #F97316;
+    font-weight: 600;
+    font-size: 1rem;
+    margin: 10px 0;
+}

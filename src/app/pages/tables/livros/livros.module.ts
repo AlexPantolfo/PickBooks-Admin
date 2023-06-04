@@ -4,6 +4,7 @@ import { CadastroLivroComponent } from './cadastro-livro/cadastro-livro.componen
 import { RouterModule, Routes } from '@angular/router';
 import { MaterialModule } from 'src/app/core/material.module';
 import { PageTitleModule } from 'src/app/commons/components/page-tittle/page-title.module';
+import { BookCardModule } from 'src/app/commons/components/book-card/book-card.module';
 
 const routes: Routes = [
   {
@@ -24,7 +25,8 @@ const routes: Routes = [
   imports: [
     RouterModule.forChild(routes),
     MaterialModule,
-    PageTitleModule
+    PageTitleModule,
+    BookCardModule
   ]
 })
 export class LivrosModule { }
